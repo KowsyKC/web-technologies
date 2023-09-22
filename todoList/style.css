@@ -1,0 +1,51 @@
+body {
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(188,187,191,1) 69%, rgba(148,187,233,1) 100%);
+  text-align: center;
+  font-weight: bold;
+}
+
+h1 {
+  color: #050813;
+  padding: 20px;
+}
+input, select{
+  border-radius: 5px;
+  border: 1px solid #ebe4e4;
+  padding: 10px;
+  margin: 10px;
+  width: 250px;
+}
+button {
+    display: center;
+    border-radius: 5px;
+    margin: 5px 0;
+    background-color: #0de2e2;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    letter-spacing: 1px;    
+  }
+  
+  button:hover {
+    background-color: #54fcbb;
+    cursor: pointer;
+  }
+  /* Style the table list */
+h2 {
+    margin-top: 10px;
+    display:flex;
+    justify-content: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    border: 1px solid #c4c0c0;
+    padding: 10px;
+    margin: 5px;
+    text-align: left;
+}

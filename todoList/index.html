@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>TODO NAMES</h1>
+
+    <div>
+        <label for="name">ToDo name:</label>
+        <input type="text" id="name">
+
+        <label for="description">Description:</label>
+        <select id="Option">
+            <option value="Description1">Description1</option>
+            <option value="Description2">Description2</option>
+            <option value="Description3">Description3</option>
+            <option value="Description4">Description4</option>
+            <option value="Description5">Description5</option>
+            <!-- Add more dish options as needed -->
+        </select>
+    </div>
+
+    <div>
+        <button onclick="addToOrder()">Add to List</button>
+    </div>
+
+    <h2>ToDo List</h2>
+    <div> 
+        <ul id="todoList"></ul>
+    </div>
+
+    <script src="script.js">    </script>
+</body>
+</html>
