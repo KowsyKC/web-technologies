@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Waiter Order System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Waiter Order System</h1>
+
+    <div>
+        <label for="tableNumber">Choose a Table:</label>
+        <input type="number" id="tableNumber">
+    </div>
+
+    <div>
+        <label for="dishOptions">Choose Dish:</label>
+        <select id="dishOptions">
+            <option value="Thalassery Biryani">Thalassery Biryani</option>
+            <option value="Meals">Meals</option>
+            <option value="Dosa">Dosa</option>
+            <option value="Pizza">Pizza</option>
+            <option value="Burger">Burger</option>
+            <!-- Add more dish options as needed -->
+        </select>
+    </div>
+
+    <button onclick="addToOrder()">Add to Order</button>
+
+    <div>
+        <h2>Table List</h2>
+        <ul id="tableList"></ul>
+    </div>
+
+    <script src="script.js">    </script>
+</body>
+</html>
