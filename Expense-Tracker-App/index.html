@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Expense Tracker App Project</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Expense Tracker</h1>
+      <div class="balance">
+        <h2>Your Balance: <span id="balance">0.00</span></h2>
+      </div>
+      <div class="income-expense">
+        <div class="income">
+          <h3>Income</h3>
+          <input type="number" id="income-amount" placeholder="Enter Income">
+          <button id="add-income">Add Income</button>
+        </div>
+        <div class="expense">
+          <h3>Expense</h3>
+          <input type="number" id="expense-amount" placeholder="Enter Expense">
+          <button id="add-expense">Add Expense</button>
+        </div>
+      </div>
+      <div class="transactions">
+        <h3>Transactions</h3>
+        <ul id="transaction-list"></ul>
+      </div>
+    </div>
+
+    <script src="script.js">
+
+    </script>
+  </body>
+</html>
