@@ -3,36 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ToDo List</title>
+    <title>To-Do-List</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>TODO NAMES</h1>
+    <h1>To-Do List</h1>
 
-    <div>
-        <label for="name">ToDo name:</label>
-        <input type="text" id="name">
+    <div class="myDiv">
+        <input type="text" id="task" placeholder="Task name...">
 
         <label for="description">Description:</label>
         <select id="Option">
-            <option value="Description1">Description1</option>
-            <option value="Description2">Description2</option>
-            <option value="Description3">Description3</option>
-            <option value="Description4">Description4</option>
-            <option value="Description5">Description5</option>
-            <!-- Add more dish options as needed -->
+            <option value=" Des1 "> des1  </option>
+            <option value=" Des2 "> des2  </option>
+            <option value=" Des3 "> des3  </option>
         </select>
+
+        <button id="btn">Add Task</button>
     </div>
 
     <div>
-        <button onclick="addToOrder()">Add to List</button>
-    </div>
-
-    <h2>ToDo List</h2>
-    <div> 
         <ul id="todoList"></ul>
     </div>
 
-    <script src="script.js">    </script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js" ></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js" ></script>
+    <script src="script.js"></script>  
+    
+    <script>
+        const a=2;
+        a=4
+
+    </script>
 </body>
 </html>
